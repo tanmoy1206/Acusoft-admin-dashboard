@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2e1dabc446.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <input type="checkbox" id="nav-toggle">
+<div class="sidebar">
+    <div class="sidebar-brand">
+        <h1>
+            <span class="lab la-accusoft"><i class="fa-brands fa-accusoft"></i></span> <span>Accusoft</span>
+        </h1>
+    </div>
+    <br>
+    <div class="sidebar-menu">
+        <ul>
+            <li>
+                <a href="" class="active">
+                    <i class="fa-solid fa-igloo"></i>   
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-users"></i>   
+                    <span>Customers</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-list-check"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>Orders</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-receipt"></i> 
+                    <span>Inventory</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-circle-user"></i> 
+                    <span>Accounts</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <span>Tasks</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+<div class="main-content">
+    <header>
+            <h2>
+                <label for="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+                </label>
+                Dashboard
+            </h2>
+
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search here">
+            </div>
+
+            <div class="user-wrapper">
+                <div><img src="/images/IMG_20221229_173943 (2).jpg" height="40px" width="40px" alt="" srcset=""></div>
+                <div>
+                    <h4>Tanmoy Dey</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+    </header>
+    <!-- <br><br> -->
+    <main>
+        <div class="cards">
+
+            <div class="card-single">
+                <div>
+                    <h1>54</h1>
+                    <span>Customers</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-users"></i></span>
+                </div>
+            </div>
+            
+
+            <div class="card-single">
+                <div>
+                    <h1>79</h1>
+                    <span>Projects</span>
+                </div>
+                <div>
+                    <span><i class="fa-regular fa-clipboard"></i></span>
+                </div>
+            </div>
+
+
+            <div class="card-single">
+                <div>
+                    <h1>124</h1>
+                    <span>Orders</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                </div>
+            </div>
+
+
+            <div class="card-single">
+                <div>
+                    <h1>$6k</h1>
+                    <span>Income</span>
+                </div>
+                <div>
+                    <span><i class="fa-brands fa-google-wallet"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-grid">
+            <div class="projects">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Recent Projects</h3>
+                        <button>See all<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                        <table width="100%">
+                            <thead>
+                                <tr>
+                                    <td>Project Title</td>
+                                    <td>Department</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>UI/UX Design</td>
+                                    <td>UI Team</td>
+                                    <td><i class="fa-solid fa-circle" id="review"></i>review</td>
+                                </tr>
+                                <tr>
+                                    <td>Web development</td>
+                                    <td>Frontend</td>
+                                    <td><i class="fa-solid fa-circle" id="progress"></i>in progress</td>
+                                </tr>
+                                <tr>
+                                    <td>Ushop App</td>
+                                    <td>Mobile Team</td>
+                                    <td><i class="fa-solid fa-circle" id="pending"></i>pending</td>
+                                </tr>
+                                <tr>
+                                    <td>UI/UX Design</td>
+                                    <td>UI Team</td>
+                                    <td><i class="fa-solid fa-circle" id="review"></i>review</td>
+                                </tr>
+                                <tr>
+                                    <td>Web development</td>
+                                    <td>Frontend</td>
+                                    <td><i class="fa-solid fa-circle" id="progress"></i>in progress</td>
+                                </tr>
+                                <tr>
+                                    <td>Ushop App</td>
+                                    <td>Mobile Team</td>
+                                    <td><i class="fa-solid fa-circle" id="pending"></i>pending</td>
+                                </tr>
+                                <tr>
+                                    <td>UI/UX Design</td>
+                                    <td>UI Team</td>
+                                    <td><i class="fa-solid fa-circle" id="review"></i>review</td>
+                                </tr>
+                                <tr>
+                                    <td>Web development</td>
+                                    <td>Frontend</td>
+                                    <td><i class="fa-solid fa-circle" id="progress"></i>in progress</td>
+                                </tr>
+                                <tr>
+                                    <td>Ushop App</td>
+                                    <td>Mobile Team</td>
+                                    <td><i class="fa-solid fa-circle" id="pending"></i>pending</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customers">
+                <div class="card1">
+                    <div class="card-header">
+                        <h3>New Customers</h3>
+                        <button>See all<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="card-body">
+                    <div class="customer">
+                        <img src="/images/IMG_20221229_173943 (2).jpg" height="40px" width="40px" alt="">
+                        <div>
+                            <h4>Tanmoy Dey</h4>
+                            <small>CEO Expert</small>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-user-circle"></i>
+                            <i class="fa-solid fa-message"></i>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <img src="/images/IMG_20221229_173943 (2).jpg" height="40px" width="40px" alt="">
+                        <div>
+                            <h4>Tanmoy Dey</h4>
+                            <small>CEO Expert</small>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-user-circle"></i>
+                            <i class="fa-solid fa-message"></i>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <img src="/images/IMG_20221229_173943 (2).jpg" height="40px" width="40px" alt="">
+                        <div>
+                            <h4>Tanmoy Dey</h4>
+                            <small>CEO Expert</small>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-user-circle"></i>
+                            <i class="fa-solid fa-message"></i>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <img src="/images/IMG_20221229_173943 (2).jpg" height="40px" width="40px" alt="">
+                        <div>
+                            <h4>Tanmoy Dey</h4>
+                            <small>CEO Expert</small>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-user-circle"></i>
+                            <i class="fa-solid fa-message"></i>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <img src="/images/IMG_20221229_173943 (2).jpg" height="40px" width="40px" alt="">
+                        <div>
+                            <h4>Tanmoy Dey</h4>
+                            <small>CEO Expert</small>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-user-circle"></i>
+                            <i class="fa-solid fa-message"></i>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
